@@ -8,12 +8,12 @@ on:
     inputs:
       workoutsToDownload:
         type: number
-        default: "5"
+        default: "7"
       saveLocalCopy:
         type: boolean
         default: false
   schedule:
-    - cron: '0 1 * * *'
+    - cron: '0 20 * * *'
 
 jobs:
   sync:
